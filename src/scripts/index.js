@@ -1,0 +1,13 @@
+import "../css/style.css";
+
+function component() {
+  const element = document.createElement("div");
+
+  // Lodash, currently included via a script, is required for this line to work
+  element.innerHTML = "hello";
+
+  return element;
+}
+
+document.body.appendChild(component());
+console.log("page1");
