@@ -1,0 +1,125 @@
+@media screen and (max-width: 960px) {
+    .feedback {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .feedbackForm {
+        padding: 25px;
+        box-shadow: 0 2px 5px #f5f5f5;
+        background: #f5f5f5;
+        text-align: center;
+        width: 100%;
+    }
+
+    .feedbackForm__title {
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .feedbackForm__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feedbackForm__message {
+        margin: 0 0 5px;
+    }
+
+    .feedbackForm__input,
+    .feedbackForm__tarea {
+        width: calc(100% - 18px);
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #1c87c9;
+        outline: none;
+        font-size: 1.5em;
+    }
+
+    .feedbackForm__input::placeholder {
+        color: #666;
+    }
+
+    .feedbackForm__button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: #1c87c9;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        cursor: pointer;
+    }
+    .feedbackForm__button:hover {
+        background: #2371a0;
+    }
+
+}
+
+@media screen and (min-width: 961px) {
+
+    .feedback {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #1b6cd1;
+    }
+
+    .feedbackForm {
+        padding: 25px;
+        margin: 25px;
+        box-shadow: 0 2px 5px #f5f5f5;
+        background: #f5f5f5;
+        text-align: center;
+    }
+
+    .feedbackForm__title {
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .feedbackForm{
+        width: 50%;
+    }
+
+    .feedbackForm__input,
+    .feedbackForm__tarea  {
+        width: calc(100% - 18px);
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #1c87c9;
+        outline: none;
+    }
+
+    .feedbackForm__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feedbackForm__input::placeholder {
+        color: #666;
+    }
+
+    .feedbackForm__button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: #1c87c9;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        cursor: pointer;
+    }
+    .feedbackForm__button:hover {
+        background: #2371a0;
+    }
+}

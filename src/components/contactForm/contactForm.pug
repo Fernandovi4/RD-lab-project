@@ -1,0 +1,12 @@
+.feedback
+    form#feedbackForm.feedbackForm(action='/')
+        h1.feedbackForm__title Contact Me
+        .feedbackForm__info
+            input.feedbackForm__fname.fname.feedbackForm__input(type='text' name='name' placeholder='Full name')
+            input.feedbackForm__email.feedbackForm__input(type='text' name='name' placeholder='Email')
+            input.feedbackForm__phone.feedbackForm__input(type='text' name='name' placeholder='Phone number')
+            input.feedbackForm__web.feedbackForm__input(type='text' name='name' placeholder='Website')
+        p.feedbackForm__message Message
+        div
+            textarea.feedbackForm__tarea(rows='4')
+        button.feedbackForm__button(type='submit', href='/') Submit
