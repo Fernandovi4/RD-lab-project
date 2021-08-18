@@ -1,0 +1,28 @@
+$primary-color: midnightblue;
+$secondary-color: #1b6cd1;
+$background-color: #dcdcdc;
+
+@mixin flex-colum-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin box-shadow {
+  -webkit-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+@mixin box-shadow-inset {
+  -webkit-box-shadow: 0 0 3px 3px rgba(34, 60, 80, 0.2) inset;
+  -moz-box-shadow: 0 0 3px 3px rgba(34, 60, 80, 0.2) inset;
+  box-shadow: 0 0 3px 3px rgba(34, 60, 80, 0.2) inset;
+}
+
+
+
+
+
+

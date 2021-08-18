@@ -1,4 +1,5 @@
-import "../css/style.css";
+import '../css/style.scss';
+// import "../css/style.css";
 import getData from './getData'
 import '../components/nav/nav'
 
