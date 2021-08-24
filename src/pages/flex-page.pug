@@ -1,0 +1,67 @@
+extends ./templates/template.pug
+
+block title
+    | Flex
+
+block main
+    h1.content__title This is a content section Flex Page
+    div.container.flex-contaier
+        .img-container-one
+            .img-container-one__top
+                img(class='img-container-one__image rounded-img', src='/src/assets/asia-alive.jpg', alt='asia-alive' , style='width:460px; height:177px;')
+                img(class='img-container-one__image rounded-img', src='/src/assets/chiang-rai.jpg', alt='chiang-rai' , style='width:460px; height:177px;')
+            .img-container-one__bottom
+                img(class='img-container-one__image rounded-img', src='/src/assets/the-far-north.jpg', alt='far-north', style='width:300px; height:115px;')
+                img(class='img-container-one__image rounded-img', src='/src/assets/chuang-mai.jpg', alt='chuang-mai', style='width:300px; height:115px;')
+                img(class='img-container-one__image rounded-img', src='/src/assets/russia.jpg', alt='russia', style='width:300px; height:115px;')
+        .inner-container
+            img(class='inner-container__img', src='/src/assets/in-isolation.jpg', alt='in isolation')
+            div.inner-container__text
+                h2.inner-container__title In Isolation - <br> A Travel Video <br> from...
+                p.inner-container__description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dolor sit amet,
+                span.inner-container__duration 03:06
+        .img-container-two
+            .img-container-two__top
+                img(class='img-container-two__image rounded-img', src='/src/assets/the-pamine-highway.jpg', alt='far-north', style='width:300px; height:115px;')
+                img(class='img-container-two__image rounded-img', src='/src/assets/uzbekistan.jpg', alt='chuang-mai', style='width:300px; height:115px;')
+                img(class='img-container-two__image rounded-img', src='/src/assets/live-now.jpg', alt='russia', style='width:300px; height:115px;')
+            .img-container-two__bottom
+                img(class='img-container-two__image rounded-img', src='/src/assets/mongolian-moments.jpg', alt='asia-alive' , style='width:460px; height:177px;')
+                img(class='img-container-two__image rounded-img', src='/src/assets/very-iran.jpg', alt='chiang-rai' , style='width:460px; height:177px;')
+        button.flex-container__btn(type="button") older videos &#8658;
+        .cards-container
+            h2.cards-container__title more on filmmaiking
+            .cards-container__inner
+                .cards-container__card.flexCard
+                    img(class='flexCard__image', src='/src/assets/card1.jpg', alt='far-north', style='width:215px; height:170px;')
+                    .flexCard-inner
+                        span.flexCard__tag Photography
+                        h3.flexCard__title This is a title
+                        span.flexCard__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        hr.flexCard__separator
+                        span.flexCard__info by somebody / on august 18, 2021
+                .cards-container__card.flexCard
+                    img(class='flexCard__image', src='/src/assets/card2.jpg', alt='far-north', style='width:215px; height:170px;')
+                    .flexCard-inner
+                        span.flexCard__tag Photography
+                        h3.flexCard__title This is a title
+                        span.flexCard__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        hr.flexCard__separator
+                        span.flexCard__info by somebody / on august 18, 2021
+                .cards-container__card.flexCard
+                    img(class='flexCard__image', src='/src/assets/card3.jpg', alt='far-north', style='width:215px; height:170px;')
+                    .flexCard-inner
+                        span.flexCard__tag Photography
+                        h3.flexCard__title This is a title
+                        span.flexCard__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        hr.flexCard__separator
+                        span.flexCard__info by somebody / on august 18, 2021
+                .cards-container__card.flexCard
+                    img(class='flexCard__image', src='/src/assets/card4.jpg', alt='far-north', style='width:215px; height:170px;')
+                    .flexCard-inner
+                        span.flexCard__tag Photography
+                        h3.flexCard__title This is a title
+                        span.flexCard__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        hr.flexCard__separator
+                        span.flexCard__info by somebody / on august 18, 2021
+

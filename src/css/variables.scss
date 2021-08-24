@@ -21,6 +21,15 @@ $background-color: #dcdcdc;
   box-shadow: 0 0 3px 3px rgba(34, 60, 80, 0.2) inset;
 }
 
+@mixin text-outlining{
+  color: black;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+
+
 
 
 

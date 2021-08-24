@@ -1,5 +1,9 @@
 @import '../../css/variables';
 
+.content{
+  min-height: 80vh;
+}
+
 .content__wraper{
   @include flex-colum-center;
 

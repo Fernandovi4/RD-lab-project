@@ -1,0 +1,66 @@
+extends ./templates/template.pug
+
+block title
+        | Grid
+
+block main
+        h1.content__title This is a content section Grid Page
+        div.container.grid-contaier
+                .images-grid-1
+                        //.images-grid-1__top
+                        img(class='images-grid-1__image img-1 rounded-img', src='/src/assets/asia-alive.jpg', alt='asia-alive' , style='width:460px; height:177px;')
+                        img(class='images-grid-1__image img-2 rounded-img', src='/src/assets/chiang-rai.jpg', alt='chiang-rai' , style='width:460px; height:177px;')
+                        //.images-grid-1__bottom
+                        img(class='images-grid-1__image img-3 rounded-img', src='/src/assets/the-far-north.jpg', alt='far-north', style='width:300px; height:115px;')
+                        img(class='images-grid-1__image img-4 rounded-img', src='/src/assets/chuang-mai.jpg', alt='chuang-mai', style='width:300px; height:115px;')
+                        img(class='images-grid-1__image img-5 rounded-img', src='/src/assets/russia.jpg', alt='russia', style='width:300px; height:115px;')
+                .grid-inner-container
+                        img(class='grid-inner-container__img', src='/src/assets/in-isolation.jpg', alt='in isolation')
+                        div.grid-inner-container__text
+                                h2.grid-inner-container__title In Isolation - <br> A Travel Video <br> from...
+                                p.grid-inner-container__description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.Lorem ipsum dolor sit amet,
+                                span.grid-inner-container__duration 03:06
+                .images-grid-2
+                        //.images-grid-2__top
+                        img(class='images-grid-2__image img-6 rounded-img', src='/src/assets/the-pamine-highway.jpg', alt='far-north', style='width:300px; height:115px;')
+                        img(class='images-grid-2__image img-7 rounded-img', src='/src/assets/uzbekistan.jpg', alt='chuang-mai', style='width:300px; height:115px;')
+                        img(class='images-grid-2__image img-8 rounded-img', src='/src/assets/live-now.jpg', alt='russia', style='width:300px; height:115px;')
+                        //.images-grid-2__bottom
+                        img(class='images-grid-2__image img-9 rounded-img', src='/src/assets/mongolian-moments.jpg', alt='asia-alive' , style='width:460px; height:177px;')
+                        img(class='images-grid-2__image img-10 rounded-img', src='/src/assets/very-iran.jpg', alt='chiang-rai' , style='width:460px; height:177px;')
+                button.grid-container__btn(type="button") older videos &#8658;
+                .grid-cards
+                        h2.grid-cards__title more on filmmaiking
+                        .grid-cards__inner
+                                .grid-cards__card.gridCard1
+                                        img(class='gridCard__image', src='/src/assets/card1.jpg', alt='far-north', style='width:215px; height:170px;')
+                                        .gridCard-inner
+                                                span.gridCard__tag Photography
+                                                h3.gridCard__title This is a title
+                                                span.gridCard__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                hr.gridCard__separator
+                                                span.gridCard__info by somebody / on august 18, 2021
+                                .grid-cards__card.gridCard2
+                                        img(class='gridCard__image', src='/src/assets/card2.jpg', alt='far-north', style='width:215px; height:170px;')
+                                        .gridCard-inner
+                                                span.gridCard__tag Photography
+                                                h3.gridCard__title This is a title
+                                                span.gridCard__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                hr.gridCard__separator
+                                                span.gridCard__info by somebody / on august 18, 2021
+                                .grid-cards__card.gridCard3
+                                        img(class='gridCard__image', src='/src/assets/card3.jpg', alt='far-north', style='width:215px; height:170px;')
+                                        .gridCard-inner
+                                                span.gridCard__tag Photography
+                                                h3.gridCard__title This is a title
+                                                span.gridCard__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                hr.gridCard__separator
+                                                span.gridCard__info by somebody / on august 18, 2021
+                                .grid-cards__card.gridCard4
+                                        img(class='gridCard__image', src='/src/assets/card4.jpg', alt='far-north', style='width:215px; height:170px;')
+                                        .gridCard-inner
+                                                span.gridCard__tag Photography
+                                                h3.gridCard__title This is a title
+                                                span.gridCard__subtitle Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                hr.gridCard__separator
+                                                span.gridCard__info by somebody / on august 18, 2021
