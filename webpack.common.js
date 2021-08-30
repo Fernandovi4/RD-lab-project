@@ -9,10 +9,15 @@ const PAGES = fs.readdirSync(PAGES_DIR).filter(fileName => fileName.endsWith('.p
 module.exports = {
     mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
     entry: {
-        index: './src/scripts/index.js',
+        index: './src/index.ts',
     },
     module: {
         rules: [
+            {
+            test: /\.tsx?$/,
+            use: 'ts-loader',
+            exclude: /node_modules/,
+            },
             // Loading CSS
             {
                 test: /\.s[ac]ss$/i,
@@ -34,6 +39,9 @@ module.exports = {
                 loader: 'pug-loader'
             }
         ],
+    },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js'],
     },
     //using pug html-preprocessor
     plugins: [

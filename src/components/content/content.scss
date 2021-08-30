@@ -104,6 +104,16 @@
     width: 100px;
   }
 
+  .card__info{
+    display: flex;
+    justify-content: space-between;
+    align-self: start;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: midnightblue;
+    width: 100%;
+  }
+
   .itemCard__id,
   .itemCard__download{
     font-size: 0.8rem;
@@ -111,6 +121,19 @@
     font-weight: bolder;
     color: black;
     margin: 0;
+  }
+
+  .newCardMarker{
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 22px;
+    background-color: #191970;
+    color: #fff;
+    transform: rotate(38deg);
+    position: relative;
+    left: 20px;
+    font-size: 1.4em;
+    @include box-shadow;
   }
 
   &:hover{

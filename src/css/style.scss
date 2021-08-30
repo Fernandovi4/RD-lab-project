@@ -27,6 +27,10 @@ body{
   display: none;
 }
 
+.displayInline{
+  display: inline;
+}
+
 @media screen and (max-width: 960px) {
   .container {
     width: 576px;
